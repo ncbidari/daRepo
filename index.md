@@ -35,7 +35,7 @@ The database consists of multiple interrelated tables, including:
 <br><br>
 
 ---
-[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 2](results/Query2.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 2](Results/Query2.csv)
 <br><br>This query retrieves a list of the top 10 most rented movies along with the number of times they have been rented:
 <br><br>
 <a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
@@ -47,7 +47,7 @@ The database consists of multiple interrelated tables, including:
 <br><br>
 
 ---
-[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 3](results/Query3.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 3](Results/Query3.csv)
 <br><br>This query retrieves a list of movies that are currently available for rent:
 <br><br>
 <a href="Query/Query3.sql"><img src="Query/Query3.png?raw=true"/></a>
@@ -59,7 +59,7 @@ The database consists of multiple interrelated tables, including:
 <br><br>
 
 ---
-[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 4](results/Query4.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 4](Results/Query4.csv)
 <br><br> This query retrieves the total revenue generated from each category of movies:
 <br><br>
 <a href="Query/Query4.sql"><img src="Query/Query4.png?raw=true"/></a>
@@ -70,7 +70,7 @@ The database consists of multiple interrelated tables, including:
 <br><br>
 
 ---
-[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 5](results/Query5.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 5](Results/Query5.csv)
 <br><br> This query retrieves the top 5 customers who have paid the most in rentals:
 <br><br>
 <a href="Query/Query5.sql"><img src="Query/Query5.png?raw=true"/></a>
