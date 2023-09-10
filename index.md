@@ -24,12 +24,18 @@
 <img src="images/Retail Analytic1.png?raw=true"/>
 
 ---
-[Query 1](Query/Query1.sql)
-<br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
--	Prepared data by removing empty records and imputing missing values, and identified features correlated to defaulted accounts.
--	Transformed categorical variables into dummy variables using one-hot encoding.
--	Implemented and compared Logistic Regression and Random Forest models, the performance of the later method was improved by 17%.
-<img src="Query/Query1.png?raw=true"/>
+[Query 1](result/Query1.csv)
+<br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
+<br><br>
+<a href="Query/Query1.sql"><img src="Query/Query1.png?raw=true"/></a>
+<br><br>This query involves multiple table joins:
+-	film and inventory are joined on the film_id column to get information about the movies.
+-	inventory and rental are joined on inventory_id to get rental information.
+-	rental and customer are joined on customer_id to associate rentals with customers.
+-	The WHERE clause filters the results to only include rentals for the customer with customer_id 1.
+-	This query will return the titles of all the movies rented by customer 1.
+
+
 
 
 
