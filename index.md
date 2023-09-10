@@ -25,7 +25,7 @@ The database consists of multiple interrelated tables, including:
 The DVD Rental Database serves as an invaluable resource for teaching and learning SQL queries, database design, and data management concepts. It is often employed in tutorials, courses, and workshops to facilitate hands-on practice in writing SQL queries for tasks such as retrieving, updating, and analyzing data. Additionally, it allows for exploration of more advanced database operations like joins, subqueries, and aggregations.
 
 ---
-[Query 1](results/Query1.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
 <br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
 <br><br>
 <a href="Query/Query1.sql"><img src="Query/Query1.png?raw=true"/></a>
