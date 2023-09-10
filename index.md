@@ -11,7 +11,7 @@ My project objectives include implementing advanced SQL querying techniques to e
 <div align="justify">The DVD Rental Database is a widely-used sample database designed for educational and practice purposes in the field of relational database management and SQL (Structured Query Language). It simulates the operations of a fictional DVD rental store, containing a comprehensive set of tables and relationships that model various aspects of the rental business. The database provides a rich dataset for exploring concepts such as customer management, movie inventory, rental transactions, and more.</div>
 
 ### <br><img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> DVD Rental Database Tables:
-The database consists of multiple interrelated tables, including:
+The <b><a href="Database/dvdrental.tar" target="_new">database</a></b> consists of multiple interrelated tables, including:
 -	film: Contains details about movies, including title, description, release year, language, and rental duration.
 -	customer: Stores information about customers, including first name, last name, email, address, and payment details.
 -	rental: Records transactions related to rentals, tracking rental dates, return dates, and associated inventory items.
