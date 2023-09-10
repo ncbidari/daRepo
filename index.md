@@ -1,7 +1,9 @@
-## Portfolios
+## My Portfolio
 
 ---
 
+<img src="images/dvdlogo.png?raw=true"/>
+<br>
 ### Featured Projects
  
 [Google Merchandise Store Dashboard (Google Analytics, BigQuery, BI, Tableau)](https://public.tableau.com/profile/shuchang.liang#!/vizhome/GoogleAnalyticDashboard-GoogleMerchandiseStore/Dashboard)
