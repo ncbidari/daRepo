@@ -26,8 +26,8 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
-<br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
-<br>
+<br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id=1.
+<br><br>
 <a href="Query/Query1.sql"><img src="Query/Query1.png?raw=true"/></a>
 <br>This query involves multiple table joins:
 -	film and inventory are joined on the film_id column to get information about the movies.
