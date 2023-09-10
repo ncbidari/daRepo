@@ -24,10 +24,11 @@
 -	The WHERE clause filters the results to only include rentals for the customer with customer_id 1.
 -	This query will return the titles of all the movies rented by customer 1.
 <br><br>
+
 ---
 [Query 2](results/Query2.csv)
 <br><br>This query retrieves a list of the top 10 most rented movies along with the number of times they have been rented:
-<br>
+<br><br>
 <a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
 <br><br>
 -	This query involves multiple table joins similar to the previous example. It then uses the COUNT function to count the number of rentals for each movie. 
