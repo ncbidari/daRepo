@@ -66,7 +66,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 <br><br> This query retrieves the total revenue generated from each category of movies:
 <br><br>
 <a href="Query/Query4.sql"><img src="Query/Query4.png?raw=true"/></a>
-<br><br>
+<br>
 -	This query involves several joins to gather information from multiple tables. It starts by joining the category table with film_category and film to get information about the categories of movies. Then, it joins with inventory, rental, and payment to calculate the total revenue generated from each category.
 -	The SUM function is used to calculate the total revenue for each category, and the results are grouped by category name using GROUP BY. The ORDER BY clause sorts the results in descending order based on total revenue.
 -	This query will return a list of movie categories along with the total revenue generated from each category.
@@ -77,18 +77,11 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 <br><br> This query retrieves the top 5 customers who have paid the most in rentals:
 <br><br>
 <a href="Query/Query5.sql"><img src="Query/Query5.png?raw=true"/></a>
-<br><br>
+<br>
 -	This query involves a join between the customer and payment tables to get information about payments made by customers. It uses the SUM function to calculate the total amount paid by each customer. The results are grouped by the customer's first and last names using GROUP BY.
 -	The ORDER BY clause sorts the results in descending order based on the total amount paid, and LIMIT 5 restricts the output to the top 5 customers.
 -	This query will return the top 5 customers who have paid the most in rentals, along with the total amount they have paid.
 <br><br>
----
-
-
-
-
-
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+
