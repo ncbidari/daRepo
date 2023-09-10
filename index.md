@@ -6,12 +6,11 @@
 The SQL project dataset consists of diverse tables encompassing essential aspects of a DVD rental system, including films, categories, actors, customers, rentals, and payments. This dataset serves as a valuable resource for in-depth analysis and insights into rental operations.
 My project objectives include implementing advanced SQL querying techniques to explore and manipulate the data, utilizing the PostgreSQL database system for efficient data management, employing Git for version control and collaboration, and maintaining a well-documented code repository on GitHub. This comprehensive approach ensures a well-organized project workflow and promotes efficient analysis.
 
-<br>
 ### DVD Rental ER Model:
 <a href="images/DVDlogo.png" tagert="_new"><img src="images/ERD.png?raw=true"/></a>
 The DVD Rental Database is a widely-used sample database designed for educational and practice purposes in the field of relational database management and SQL (Structured Query Language). It simulates the operations of a fictional DVD rental store, containing a comprehensive set of tables and relationships that model various aspects of the rental business. The database provides a rich dataset for exploring concepts such as customer management, movie inventory, rental transactions, and more.
 <br>
-### DVD Rental Database Tables:
+### <img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="10" height="10"> DVD Rental Database Tables:
 The database consists of multiple interrelated tables, including:
 -	film: Contains details about movies, including title, description, release year, language, and rental duration.
 -	customer: Stores information about customers, including first name, last name, email, address, and payment details.
