@@ -24,12 +24,12 @@
 <img src="images/Retail Analytic1.png?raw=true"/>
 
 ---
-[Home Credit Default Risk Prediction (SQL, Machine Learning, Python)](https://github.com/shuchangliang/Projects/blob/master/Home%20Credit%20Default%20Risk.ipynb)
--	Calculated credit-to-income ratio, average income, numbers of bad debt and refused accounts, etc. for 300,000 records using SQL.
+[Query 1](/daRepo/blob/main/Query/Query1.sql)
+<br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
 -	Prepared data by removing empty records and imputing missing values, and identified features correlated to defaulted accounts.
 -	Transformed categorical variables into dummy variables using one-hot encoding.
 -	Implemented and compared Logistic Regression and Random Forest models, the performance of the later method was improved by 17%.
-<img src="images/Random Forest AOC.png?raw=true"/>
+<img src="Query1.png?raw=true"/>
 
 
 
