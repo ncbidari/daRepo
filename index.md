@@ -1,16 +1,27 @@
-## My Portfolio
+## Portfolio:
 
 ---
 
 <img src="images/DVDlogo.png?raw=true"/>
 <a href="images/DVDlogo.png" tagert="_new"><img src="images/ERD.png?raw=true"/></a>
 <br>
-### Featured Projects
- 
-[Google Merchandise Store Dashboard (Google Analytics, BigQuery, BI, Tableau)](https://public.tableau.com/profile/shuchang.liang#!/vizhome/GoogleAnalyticDashboard-GoogleMerchandiseStore/Dashboard)
-- Worked with Google Merchandise Store, connected customer online behavior and conversion to sales and profitability, made recommendations with impact on business outcomes
-- Used Google Analytics, BigQuery and Data Studio to analyze data collected by JavaScript tags, measure effectiveness of marketing strategies, tell marketers what works and what doesn't
-
+### Description:
+The DVD Rental Database is a widely-used sample database designed for educational and practice purposes in the field of relational database management and SQL (Structured Query Language). It simulates the operations of a fictional DVD rental store, containing a comprehensive set of tables and relationships that model various aspects of the rental business. The database provides a rich dataset for exploring concepts such as customer management, movie inventory, rental transactions, and more.
+<br>
+### Structure:
+The database consists of multiple interrelated tables, including:
+<br>
+-	film: Contains details about movies, including title, description, release year, language, and rental duration.
+-	customer: Stores information about customers, including first name, last name, email, address, and payment details.
+-	rental: Records transactions related to rentals, tracking rental dates, return dates, and associated inventory items.
+-	inventory: Contains records of available copies of movies in the store, tied to specific films.
+-	payment: Tracks payments made by customers for rentals, including amount, payment date, and method.
+-	category: Categorizes movies into genres like Action, Drama, Comedy, etc.
+-	actor: Contains details about actors, including first name and last name.
+-	store: Represents the physical stores, including address and manager staff.
+<br>
+### Usage:
+The DVD Rental Database serves as an invaluable resource for teaching and learning SQL queries, database design, and data management concepts. It is often employed in tutorials, courses, and workshops to facilitate hands-on practice in writing SQL queries for tasks such as retrieving, updating, and analyzing data. Additionally, it allows for exploration of more advanced database operations like joins, subqueries, and aggregations.
 
 ---
 [Query 1](results/Query1.csv)
