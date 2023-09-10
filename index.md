@@ -40,25 +40,27 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 2](results/Query2.csv)
 <br><br>This query retrieves a list of the top 10 most rented movies along with the number of times they have been rented:
-<br>
-<a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
 <br><br>
+<a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
+<br>
 -	This query involves multiple table joins similar to the previous example. It then uses the COUNT function to count the number of rentals for each movie. 
 -	The results are grouped by the movie title using GROUP BY.
 -	The ORDER BY clause sorts the results in descending order based on the rental count, and LIMIT 10 restricts the output to the top 10 movies.
 -	This query will return the top 10 most rented movies along with the number of times each movie has been rented.
 <br><br>
+
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 3](results/Query3.csv)
 <br><br>This query retrieves a list of movies that are currently available for rent:
 <br>
 <a href="Query/Query3.sql"><img src="Query/Query3.png?raw=true"/></a>
-<br><br>
+<br>
 -	This query involves joining the film and inventory tables to get information about movies and their availability. It also includes a left join with the rental table to check if a movie is currently rented or not.
 -	The WHERE clause filters for rows where the return_date in the rental table is NULL, indicating that the movie is currently available for rent.
 -	The results are grouped by movie title using GROUP BY to ensure that each movie appears only once in the list. The ORDER BY clause orders the results alphabetically by movie title.
 -	This query will return a list of movies that are currently available for rent in the DVD Rental database.
 <br><br>
+
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 4](results/Query4.csv)
 <br><br> This query retrieves the total revenue generated from each category of movies:
@@ -69,7 +71,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 -	The SUM function is used to calculate the total revenue for each category, and the results are grouped by category name using GROUP BY. The ORDER BY clause sorts the results in descending order based on total revenue.
 -	This query will return a list of movie categories along with the total revenue generated from each category.
 <br><br>
----
+
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 5](results/Query5.csv)
 <br><br> This query retrieves the top 5 customers who have paid the most in rentals:
