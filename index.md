@@ -27,9 +27,9 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
 <br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id 1.
-<br><br>
+<br>
 <a href="Query/Query1.sql"><img src="Query/Query1.png?raw=true"/></a>
-<br><br>This query involves multiple table joins:
+<br>This query involves multiple table joins:
 -	film and inventory are joined on the film_id column to get information about the movies.
 -	inventory and rental are joined on inventory_id to get rental information.
 -	rental and customer are joined on customer_id to associate rentals with customers.
@@ -38,7 +38,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 <br><br>
 
 ---
-[Query 2](results/Query2.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 2](results/Query2.csv)
 <br><br>This query retrieves a list of the top 10 most rented movies along with the number of times they have been rented:
 <br>
 <a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
@@ -49,7 +49,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 -	This query will return the top 10 most rented movies along with the number of times each movie has been rented.
 <br><br>
 ---
-[Query 3](results/Query3.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 3](results/Query3.csv)
 <br><br>This query retrieves a list of movies that are currently available for rent:
 <br>
 <a href="Query/Query3.sql"><img src="Query/Query3.png?raw=true"/></a>
@@ -60,7 +60,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 -	This query will return a list of movies that are currently available for rent in the DVD Rental database.
 <br><br>
 ---
-[Query 4](results/Query4.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 4](results/Query4.csv)
 <br><br> This query retrieves the total revenue generated from each category of movies:
 <br>
 <a href="Query/Query4.sql"><img src="Query/Query4.png?raw=true"/></a>
@@ -71,7 +71,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 <br><br>
 ---
 ---
-[Query 5](results/Query5.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 5](results/Query5.csv)
 <br><br> This query retrieves the top 5 customers who have paid the most in rentals:
 <br>
 <a href="Query/Query5.sql"><img src="Query/Query5.png?raw=true"/></a>
