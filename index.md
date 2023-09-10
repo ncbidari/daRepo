@@ -52,7 +52,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 3](results/Query3.csv)
 <br><br>This query retrieves a list of movies that are currently available for rent:
-<br>
+<br><br>
 <a href="Query/Query3.sql"><img src="Query/Query3.png?raw=true"/></a>
 <br>
 -	This query involves joining the film and inventory tables to get information about movies and their availability. It also includes a left join with the rental table to check if a movie is currently rented or not.
@@ -64,7 +64,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 4](results/Query4.csv)
 <br><br> This query retrieves the total revenue generated from each category of movies:
-<br>
+<br><br>
 <a href="Query/Query4.sql"><img src="Query/Query4.png?raw=true"/></a>
 <br><br>
 -	This query involves several joins to gather information from multiple tables. It starts by joining the category table with film_category and film to get information about the categories of movies. Then, it joins with inventory, rental, and payment to calculate the total revenue generated from each category.
@@ -75,7 +75,7 @@ The DVD Rental Database serves as an invaluable resource for teaching and learni
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 5](results/Query5.csv)
 <br><br> This query retrieves the top 5 customers who have paid the most in rentals:
-<br>
+<br><br>
 <a href="Query/Query5.sql"><img src="Query/Query5.png?raw=true"/></a>
 <br><br>
 -	This query involves a join between the customer and payment tables to get information about payments made by customers. It uses the SUM function to calculate the total amount paid by each customer. The results are grouped by the customer's first and last names using GROUP BY.
