@@ -28,7 +28,7 @@
 ---
 [Query 2](results/Query2.csv)
 <br><br>This query retrieves a list of the top 10 most rented movies along with the number of times they have been rented:
-<br><br>
+<br>
 <a href="Query/Query2.sql"><img src="Query/Query2.png?raw=true"/></a>
 <br><br>
 -	This query involves multiple table joins similar to the previous example. It then uses the COUNT function to count the number of rentals for each movie. 
@@ -37,7 +37,17 @@
 -	This query will return the top 10 most rented movies along with the number of times each movie has been rented.
 <br><br>
 ---
-
+[Query 3](results/Query3.csv)
+<br><br>This query retrieves a list of movies that are currently available for rent:
+<br>
+<a href="Query/Query3.sql"><img src="Query/Query3.png?raw=true"/></a>
+<br><br>
+-	This query involves joining the film and inventory tables to get information about movies and their availability. It also includes a left join with the rental table to check if a movie is currently rented or not.
+-	The WHERE clause filters for rows where the return_date in the rental table is NULL, indicating that the movie is currently available for rent.
+-	The results are grouped by movie title using GROUP BY to ensure that each movie appears only once in the list. The ORDER BY clause orders the results alphabetically by movie title.
+-	This query will return a list of movies that are currently available for rent in the DVD Rental database.
+<br><br>
+---
 
 
 
