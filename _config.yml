@@ -1,14 +1,12 @@
 title:   Ensieh Bidari
-logo: "/images/Profile.png?raw=true" # your photo (or logo) here
+#logo: "/images/Profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
-  Results-driven data analyst, product owner and business system analyst with experiences and a track record of delivering innovative technical solutions that enhance the experience of both customers and analytic professionals. Proficient in SQL, Python, and Power BI, with a validated competence to automate dashboards, streamline processes, and provide tactical direction to stakeholders using easy-to-understand language. Skilled in analyzing behavioral data, identifying business gaps, and developing solutions that meet the needs of both internal and external stakeholders.
+  Results-driven data analyst, and business system analyst with experience and a track record of delivering innovative technical solutions that enhance the experience of both customers and analytic professionals. Proficient in SQL, Python, Tableau, and Power BI, with a validated competence to automate dashboards, streamline processes, and provide tactical direction to stakeholders using easy-to-understand language. Skilled in analyzing behavioral data, identifying business gaps, and developing solutions that meet the needs of both internal and external stakeholders.
   <br><br><br>
-  <a href="https://www.linkedin.com/in/shuchangl/">View My LinkedIn Profile</a>
+  <a href="https://www.linkedin.com/in/ensieh-bidari/">View My LinkedIn Profile</a>
   <br><br>
-  <a href="https://public.tableau.com/profile/shuchang.liang#!/">View My Tableau Work Samples</a>
-  <br><br>
-  <a href="https://www.notion.so/elvisliang/Portfolio-Elvis-Liang-0d7092fc3fc34f50a878f88a380471f6">View My Notion Portfolios</a>
+  <a href="https://www.notion.so/ncbidari/My-Tableau-Project-3301c0c78136438184e349d72920c3cb">View My Notion Portfolios</a>
   
 theme: jekyll-theme-minimal   
  
