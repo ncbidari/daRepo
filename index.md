@@ -1,7 +1,5 @@
 ## Portfolio:
 
----
-
 <img src="images/DVDlogo.png?raw=true"/>
 The SQL project dataset consists of diverse tables encompassing essential aspects of a DVD rental system, including films, categories, actors, customers, rentals, and payments. This dataset serves as a valuable resource for in-depth analysis and insights into rental operations.
 My project objectives include implementing advanced SQL querying techniques to explore and manipulate the data, utilizing the PostgreSQL database system for efficient data management, employing Git for version control and collaboration, and maintaining a well-documented code repository on GitHub. This comprehensive approach ensures a well-organized project workflow and promotes efficient analysis.
@@ -20,9 +18,6 @@ The database consists of multiple interrelated tables, including:
 -	category: Categorizes movies into genres like Action, Drama, Comedy, etc.
 -	actor: Contains details about actors, including first name and last name.
 -	store: Represents the physical stores, including address and manager staff.
-
-### Usage:
-The DVD Rental Database serves as an invaluable resource for teaching and learning SQL queries, database design, and data management concepts. It is often employed in tutorials, courses, and workshops to facilitate hands-on practice in writing SQL queries for tasks such as retrieving, updating, and analyzing data. Additionally, it allows for exploration of more advanced database operations like joins, subqueries, and aggregations.
 
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
