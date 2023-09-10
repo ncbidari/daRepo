@@ -6,12 +6,12 @@ The SQL project dataset consists of diverse tables encompassing essential aspect
 My project objectives include implementing advanced SQL querying techniques to explore and manipulate the data, utilizing the PostgreSQL database system for efficient data management, employing Git for version control and collaboration, and maintaining a well-documented code repository on GitHub. This comprehensive approach ensures a well-organized project workflow and promotes efficient analysis.
 </div>
 
-### <img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> DVD Rental ER Model:
+### <br><img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> DVD Rental ER Model:
 <a href="images/DVDlogo.png" tagert="_new"><img src="images/ERD.png?raw=true"/></a>
 <div align="justify">The DVD Rental Database is a widely-used sample database designed for educational and practice purposes in the field of relational database management and SQL (Structured Query Language). It simulates the operations of a fictional DVD rental store, containing a comprehensive set of tables and relationships that model various aspects of the rental business. The database provides a rich dataset for exploring concepts such as customer management, movie inventory, rental transactions, and more.</div>
 
-### <img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> DVD Rental Database Tables:
-<div align="justify">The database consists of multiple interrelated tables, including:
+### <br><img src="images/DVDicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> DVD Rental Database Tables:
+The database consists of multiple interrelated tables, including:
 -	film: Contains details about movies, including title, description, release year, language, and rental duration.
 -	customer: Stores information about customers, including first name, last name, email, address, and payment details.
 -	rental: Records transactions related to rentals, tracking rental dates, return dates, and associated inventory items.
@@ -19,7 +19,7 @@ My project objectives include implementing advanced SQL querying techniques to e
 -	payment: Tracks payments made by customers for rentals, including amount, payment date, and method.
 -	category: Categorizes movies into genres like Action, Drama, Comedy, etc.
 -	actor: Contains details about actors, including first name and last name.
--	store: Represents the physical stores, including address and manager staff.</div>
+-	store: Represents the physical stores, including address and manager staff.
 
 ---
 [<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
