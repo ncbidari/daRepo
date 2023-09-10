@@ -58,7 +58,17 @@
 -	This query will return a list of movie categories along with the total revenue generated from each category.
 <br><br>
 ---
-
+---
+[Query 5](results/Query5.csv)
+<br><br> This query retrieves the top 5 customers who have paid the most in rentals:
+<br>
+<a href="Query/Query5.sql"><img src="Query/Query5.png?raw=true"/></a>
+<br><br>
+-	This query involves a join between the customer and payment tables to get information about payments made by customers. It uses the SUM function to calculate the total amount paid by each customer. The results are grouped by the customer's first and last names using GROUP BY.
+-	The ORDER BY clause sorts the results in descending order based on the total amount paid, and LIMIT 5 restricts the output to the top 5 customers.
+-	This query will return the top 5 customers who have paid the most in rentals, along with the total amount they have paid.
+<br><br>
+---
 
 
 
