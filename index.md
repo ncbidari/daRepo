@@ -22,7 +22,7 @@ The database consists of multiple interrelated tables, including:
 -	store: Represents the physical stores, including address and manager staff.
 
 ---
-[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](results/Query1.csv)
+[<img src="images/SQLicon.png?raw=true" alt="Girl in a jacket" width="35" height="35" align="center"> Query 1](Results/Query1.csv)
 <br><br>This query retrieves the titles of movies that were rented by a specific customer (in this case, customer with customer_id=1.
 <br><br>
 <a href="Query/Query1.sql"><img src="Query/Query1.png?raw=true"/></a>
