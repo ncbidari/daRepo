@@ -1,3 +1,4 @@
+<div align="justify">
 ## Portfolio:
 
 <img src="images/DVDlogo.png?raw=true"/>
@@ -79,4 +80,4 @@ The database consists of multiple interrelated tables, including:
 <br><br>
 
 ---
-
+<div>
