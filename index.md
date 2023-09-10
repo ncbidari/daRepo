@@ -2,7 +2,8 @@
 
 ---
 
-<img src="images/dvdlogo.png?raw=true"/>
+<img src="images/DVDlogo.png?raw=true"/>
+<img src="images/ERD.png?raw=true"/>
 <br>
 ### Featured Projects
  
