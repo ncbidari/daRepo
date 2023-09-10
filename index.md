@@ -48,6 +48,16 @@
 -	This query will return a list of movies that are currently available for rent in the DVD Rental database.
 <br><br>
 ---
+[Query 4](results/Query4.csv)
+<br><br> This query retrieves the total revenue generated from each category of movies:
+<br>
+<a href="Query/Query4.sql"><img src="Query/Query4.png?raw=true"/></a>
+<br><br>
+-	This query involves several joins to gather information from multiple tables. It starts by joining the category table with film_category and film to get information about the categories of movies. Then, it joins with inventory, rental, and payment to calculate the total revenue generated from each category.
+-	The SUM function is used to calculate the total revenue for each category, and the results are grouped by category name using GROUP BY. The ORDER BY clause sorts the results in descending order based on total revenue.
+-	This query will return a list of movie categories along with the total revenue generated from each category.
+<br><br>
+---
 
 
 
